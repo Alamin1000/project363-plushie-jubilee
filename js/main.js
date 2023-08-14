@@ -27,9 +27,10 @@
   // owl-carousel
   $(".fashion-slider-active").owlCarousel({
     loop: true,
-    margin: 50,
+    margin: 0,
     responsiveClass: true,
     items: 1,
+    dots: true,
     nav: false,
     navText: [
       '<span class="fas fa-chevron-left fa-2x"></span>',

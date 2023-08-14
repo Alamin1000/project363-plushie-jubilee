@@ -1,3 +1,22 @@
+/* buttons */
+.default-button {
+    font-size: 12px;
+    min-height: 52px;
+    min-width: 240px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: var(--theme__color1);
+    color: #fff;
+    text-transform: uppercase;
+}
+/* buttons-end */
+
+
 /* small-tools */
 .underline {
     text-decoration: underline !important;

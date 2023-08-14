@@ -29,29 +29,20 @@
     <div class="main-wrap">
       <!-- offcanvas-start -->
       <div class="offcanvas-menu">
-        <ul class="offmenu" id="menuParent">
-          <a href="#" class="offcanvas-close"><i class="fa fa-times"></i></a>
-          <li class="active"><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li class="dropdown">
-            <a href="#" data-bs-toggle="collapse" data-bs-target="#drop-menu1"
-              >OUR HORSES</a
-            >
-            <div
-              class="dropdown-menu-custom collapse"
-              id="drop-menu1"
-              data-bs-parent="#menuParent"
-            >
-              <ul>
-                <li><a href="#">YEARLINGS</a></li>
-                <li><a href="#">2 YEAR OLDS</a></li>
-                <li><a href="#">3 YEAR OLD PLUS</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="#">LATEST NEWS</a></li>
-          <li><a href="#">CONTACT & FIND US</a></li>
-        </ul>
+        <div class="offmenu" id="menuParent">
+          <a href="#" class="offcanvas-close"><i class="fal fa-times"></i></a>
+          <ul class="mobile-menu">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PROGRAM</a></li>
+            <li><a href="#">ARTISTS</a></li>
+            <li><a href="#">SUPPORT</a></li>
+            <li><a href="#">SEARCH</a></li>
+            <li><a href="#">ENGLISH</a></li>
+            <li><a href="#">LOGIN</a></li>
+            <li><a href="#">TICKETS</a></li>
+            <li><a href="#">SHOPPING CART (0)</a></li>
+          </ul>
+        </div>
       </div>
       <div class="offcanvas-overlay"></div>
       <!-- offcanvas-start-end -->
@@ -60,7 +51,7 @@
       <header class="header-section">
         <div class="container">
           <div class="header-section__inner">
-            <div class="main-menu">
+            <div class="main-menu d-lg-block d-none">
               <ul>
                 <li><a href="#">ABOUT</a></li>
                 <li><a href="#">PROGRAM</a></li>
@@ -72,15 +63,17 @@
             <a href="index.html" class="header-logo">
               <img src="images/logo.svg" alt="" />
             </a>
-            <div class="main-menu main-menu--2">
+            <div class="main-menu main-menu--2 d-lg-block d-none">
               <ul>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">PROGRAM</a></li>
-                <li><a href="#">ARTISTS</a></li>
-                <li><a href="#">SUPPORT</a></li>
-                <li><a href="#">SEARCH</a></li>
+                <li><a href="#">ENGLISH</a></li>
+                <li><a href="#">LOGIN</a></li>
+                <li><a href="#">TICKETS</a></li>
+                <li><a href="#">SHOPPING CART (0)</a></li>
               </ul>
             </div>
+            <a href="#" class="offcanvas-open d-lg-none">
+              <i class="far fa-bars"></i>
+            </a>
           </div>
         </div>
       </header>
@@ -182,13 +175,15 @@
           <div
             class="fashion-slider fashion-slider-active owl-carousel slider-dots-1"
           >
-            <div
-              class="fashion-slide"
-              style="
-                background: url('images/fashion-1.png') no-repeat center
-                  center/cover;
-              "
-            >
+            <div class="fashion-slide">
+              <div
+                class="slide-bg"
+                style="
+                  background: url('images/fashion-1.png') no-repeat right
+                      center/auto 100%,
+                    #b8bcbb;
+                "
+              ></div>
               <div class="container">
                 <div class="fashion-slide__inner">
                   <div class="fashion-slide-content">
@@ -216,10 +211,10 @@
                         <p>
                           Vote for Your Favorite. When you're impressed by
                           someone's plushie presentation, show your appreciation
-                          by giving them your colorful rubber band. The winner
-                          of the Dress-Up Contest will be the participant who
-                          accumulates the most colorful rubber bands. Top 3
-                          winners will be given a mystery prize.
+                          by giving them your colorful rubber band. <br />
+                          The winner of the Dress-Up Contest will be the
+                          participant who accumulates the most colorful rubber
+                          bands. Top 3 winners will be given a mystery prize.
                         </p>
                       </div>
                     </div>
@@ -227,13 +222,15 @@
                 </div>
               </div>
             </div>
-            <div
-              class="fashion-slide color-white"
-              style="
-                background: url('images/fashion-2.png') no-repeat center
-                  center/cover;
-              "
-            >
+            <div class="fashion-slide color-white">
+              <div
+                class="slide-bg"
+                style="
+                  background: url('images/fashion-2.png') no-repeat right
+                      center/auto 100%,
+                    #180e06;
+                "
+              ></div>
               <div class="container">
                 <div class="fashion-slide__inner">
                   <div class="fashion-slide-content">
@@ -254,7 +251,7 @@
                         </p>
                       </div>
                       <div class="abg">
-                        <h3>60+ Toy vending machines</h3>
+                        <h3 class="h3">60+ Toy vending machines</h3>
                         <p>
                           Your participation directly contributes to the
                           charitable efforts we're passionate about, making your
@@ -266,13 +263,15 @@
                 </div>
               </div>
             </div>
-            <div
-              class="fashion-slide color-white"
-              style="
-                background: url('images/fashion-3.png') no-repeat center
-                  center/cover;
-              "
-            >
+            <div class="fashion-slide color-white">
+              <div
+                class="slide-bg"
+                style="
+                  background: url('images/fashion-3.png') no-repeat right
+                      center/auto 100%,
+                    #18191a;
+                "
+              ></div>
               <div class="container">
                 <div class="fashion-slide__inner">
                   <div class="fashion-slide-content">
@@ -310,13 +309,15 @@
                 </div>
               </div>
             </div>
-            <div
-              class="fashion-slide"
-              style="
-                background: url('images/fashion-4.png') no-repeat center
-                  center/cover;
-              "
-            >
+            <div class="fashion-slide">
+              <div
+                class="slide-bg"
+                style="
+                  background: url('images/fashion-4.png') no-repeat right
+                      center/auto 100%,
+                    #924d33;
+                "
+              ></div>
               <div class="container">
                 <div class="fashion-slide__inner">
                   <div class="fashion-slide-content">
@@ -357,11 +358,349 @@
           <!-- fashion-slider-end -->
         </section>
         <!-- fashion-section-end -->
+
+        <!-- artist-section -->
+        <section class="artist-section">
+          <div class="container">
+            <div class="artist-section__inner">
+              <div class="artist-section__title">
+                <div class="bdr-number" id="myoutlinedtext">4</div>
+                <h2 class="h2 mb-0">
+                  UPCOMING <br />
+                  ARTIST
+                </h2>
+              </div>
+
+              <div class="artist-all-wrap">
+                <div class="artist-single artist-single--1">
+                  <div class="artist-single__image">
+                    <img src="images/artist-1.png" alt="" class="img" />
+                  </div>
+                  <div class="artist-single__cont">
+                    <h4>EsterGroove</h4>
+                    <h5>08:00PM - 9:30PM</h5>
+                  </div>
+                </div>
+
+                <div class="artist-single artist-single--2">
+                  <div class="artist-single__image">
+                    <img src="images/artist-2.png" alt="" class="img" />
+                  </div>
+                  <div class="artist-single__cont">
+                    <h4>Astridmane</h4>
+                    <h5>10:00PM - 11:30PM</h5>
+                  </div>
+                </div>
+
+                <div class="artist-single artist-single--3">
+                  <div class="artist-single__image">
+                    <img src="images/artist-3.png" alt="" class="img" />
+                  </div>
+                  <div class="artist-single__cont">
+                    <h4>Lilly Aurora</h4>
+                    <h5>11:40PM - 1:30AM</h5>
+                  </div>
+                </div>
+
+                <div class="artist-single artist-single--4">
+                  <div class="artist-single__image">
+                    <img src="images/artist-4.png" alt="" class="img" />
+                  </div>
+                  <div class="artist-single__cont">
+                    <h4>Aether</h4>
+                    <h5>1:30AM - 3:00AM</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- artist-section-end -->
+
+        <!-- tik-section -->
+        <section class="tik-section">
+          <div class="container">
+            <div class="tik-section__inner">
+              <div class="tik-row">
+                <div class="tik__box">
+                  <h3>
+                    <div>SECURE</div>
+                    <div class="text-right">TICKETS</div>
+                  </h3>
+                  <a href="#" class="default-button button">All Tickets</a>
+                </div>
+                <div class="tik__image">
+                  <img src="images/getready.png" alt="" class="img" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- tik-section-end -->
+
+        <!-- faq-section -->
+        <section class="faq-section">
+          <div class="container">
+            <div class="faq-section__inner">
+              <div class="faq-section__title">
+                <h3 class="h3 mb-0">CUSTOMER SUPPORT</h3>
+              </div>
+
+              <div class="faqs-wrap" id="faqs-parent">
+                <!-- s-faq -->
+                <div class="s-faq">
+                  <a
+                    href="#"
+                    class="s-faq__title collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#s-faq-1"
+                  >
+                    <h3 class="mb-0">What is Plushie Jubilee?</h3>
+                    <div class="ind"></div>
+                  </a>
+                  <div
+                    class="s-faq__body collapse"
+                    id="s-faq-1"
+                    data-bs-parent="#faqs-parent"
+                  >
+                    <div class="s-faq__body__inner">
+                      <p>
+                        Plushie Jubilee is a celebration that brings together
+                        plushie enthusiasts for a day of fun, games, activities,
+                        and heartwarming memories centered around our beloved
+                        cuddly companions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- s-faq-end -->
+                <!-- s-faq -->
+                <div class="s-faq">
+                  <a
+                    href="#"
+                    class="s-faq__title collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#s-faq-2"
+                  >
+                    <h3 class="mb-0">
+                      Is there a free to attend Plushie Jubilee?
+                    </h3>
+                    <div class="ind"></div>
+                  </a>
+                  <div
+                    class="s-faq__body collapse"
+                    id="s-faq-2"
+                    data-bs-parent="#faqs-parent"
+                  >
+                    <div class="s-faq__body__inner">
+                      <p>
+                        Yes, there is an entry fee to attend the event. The fee
+                        covers access to the celebration, activities, and the
+                        chance to win exciting plushie prizes. Your contribution
+                        also supports our charitable endeavors.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- s-faq-end -->
+                <!-- s-faq -->
+                <div class="s-faq">
+                  <a
+                    href="#"
+                    class="s-faq__title collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#s-faq-3"
+                  >
+                    <h3 class="mb-0">Can i bring a plus one?</h3>
+                    <div class="ind"></div>
+                  </a>
+                  <div
+                    class="s-faq__body collapse"
+                    id="s-faq-3"
+                    data-bs-parent="#faqs-parent"
+                  >
+                    <div class="s-faq__body__inner">
+                      <p>
+                        Absolutely! We encourage you to bring a plus one to
+                        share in the joy of Plushie Jubilee. Please ensure that
+                        your plus one also registers in advance to secure their
+                        spot.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- s-faq-end -->
+                <!-- s-faq -->
+                <div class="s-faq">
+                  <a
+                    href="#"
+                    class="s-faq__title collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#s-faq-4"
+                  >
+                    <h3 class="mb-0">
+                      What charity organizations are we partnering with?
+                    </h3>
+                    <div class="ind"></div>
+                  </a>
+                  <div
+                    class="s-faq__body collapse"
+                    id="s-faq-4"
+                    data-bs-parent="#faqs-parent"
+                  >
+                    <div class="s-faq__body__inner">
+                      <p>
+                        At Plushie Jubilee, we are honored to work with the
+                        following charity organizations to create a meaningful
+                        impact:
+                      </p>
+                      <ol>
+                        <li>[Charity Organization Name 1]</li>
+                        <li>[Charity Organization Name 2]</li>
+                        <li>[Charity Organization Name 3]</li>
+                      </ol>
+                      <p>
+                        These organizations embody our commitment to giving back
+                        to the community.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- s-faq-end -->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- faq-section-end -->
+
+        <!-- help-section -->
+        <section class="help-section">
+          <div class="container">
+            <div class="help-section__inner">
+              <div class="help-section__row row gy-lg-0 gy-5">
+                <div class="col-lg-6">
+                  <div class="help-content cont-blk">
+                    <h3 class="h3">How can you help?</h3>
+                    <p>
+                      If you're adding exciting new toys to yours or your kids
+                      collection, some <br class="d-lg-block d-none" />
+                      your old ones might need swapping out.
+                    </p>
+
+                    <a href="#" class="hp-anc">
+                      <i class="fas fa-paper-plane icon"></i>
+                      <span class="txt">SEND US AN EMAIL</span>
+                      <i
+                        class="fal fa-long-arrow-right arr-tr fa-rotate-315"
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 order-lg-0 order-first">
+                  <div class="help__image">
+                    <img src="images/donate.png" alt="" class="img" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- help-section-end -->
+
+        <!-- cta-section -->
+        <section class="cta-section">
+          <div class="container">
+            <div class="cta-section__inner">
+              <div class="cta-content">
+                <h2 class="h2 mb-0">
+                  Don’t miss out on <br class="d-lg-block d-none" />
+                  updates
+                </h2>
+                <a href="SUBSCRIBE" class="btn-bx">subscribe</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- cta-section-end -->
       </main>
       <!-- main end -->
 
       <!-- footer-section -->
-      <footer class="footer-section"></footer>
+      <footer class="footer-section">
+        <div class="container">
+          <div class="footer-section__inner">
+            <div class="footer-top-row row gy-5">
+              <div class="col-lg-3 col-md-6">
+                <div class="footer-logo-column">
+                  <a href="index.html" class="footer-logo">
+                    <img src="images/logo-short.svg" alt="" />
+                  </a>
+
+                  <ul class="fs-menu">
+                    <li>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-github"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="footer-menu">
+                  <h4>Quicklinks</h4>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Artists</a></li>
+                    <li><a href="#">Program</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="footer-menu">
+                  <h4>Support</h4>
+                  <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Tems & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="footer-menu">
+                  <h4>Need Help?</h4>
+                  <ul>
+                    <li>
+                      <a href="#">Tanjung Sari Street no.48, Pontianak City</a>
+                    </li>
+                    <li>
+                      <a href="mailto:Support@PlushieJubilee.com"
+                        >Support@PlushieJubilee.com</a
+                      >
+                    </li>
+                    <li><a href="TEL:+32 456 7890">+32 456 7890</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-bottom">
+              <p class="copy-right mb-0">
+                &copy; Copyright 2023, All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
       <!--End footer-section -->
     </div>
     <!-- main-wrap -->

@@ -1,7 +1,234 @@
 
 
 @media (max-width: 1399px) {
- 
+    .main-menu > ul {
+        gap: 25px;
+    }
+    .main-menu.main-menu--2 > ul {
+        gap: 14px;
+    }
+    .header-logo {
+        width: 130px;
+        display: block;
+    }
+    .header-section {
+        padding: 8px 0;
+    }
+    .hero-section {
+        min-height: 600px;
+    }
+
+    .h2 {
+        font-size: 40px;
+        margin-bottom: 17px;
+    }
+    .h-p {
+        font-size: 16px;
+    }
+    .abg h4 {
+        font-size: 16px;
+        margin-bottom: 9px;
+    }
+    body {
+        font-size: 14px;
+    }
+    .abg {
+        margin-bottom: 50px;
+    }
+    .about-section {
+        padding: 50px 0;
+    }
+    .about-content {
+        width: 560px;
+    }
+    .about-bear-1 {
+        width: 240px;
+        top: 25px;
+        right: 20px;
+    }
+    .about-bear-2 {
+        width: 230px;
+        right: 100px;
+        bottom: 15px;
+    }
+
+
+    .fashion-slide-content__body .abg p {
+        font-size: 16px;
+    }
+    .fashion-slide-content__body .abg h4 {
+        font-size: 20px;
+    }
+    .fashion-slide-content__body {
+        max-width: 390px;
+        min-height: 480px;
+    }
+    .h3 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .fashion-slide-content__body .abg {
+        margin-bottom: 25px;
+    }
+    .slider-dots-1 .owl-dot {
+        height: 20px;
+        width: 20px;
+    }
+    .slider-dots-1 .owl-dots {
+        gap: 8px;
+    }
+    .fashion-slide .slide-bg {
+        height: calc(100% - 40px);
+    }
+    .fashion-slider .owl-dots {
+        top: 7px;
+    }
+    .fashion-section {
+        padding: 40px 0;
+    }
+
+
+    .artist-section__title .bdr-number {
+        font-size: 85px;
+    }
+    .artist-section {
+        padding: 40px 0;
+    }
+    .artist-single__image {
+        height: 230px;
+        width: 230px;
+    }
+    .artist-single__cont h4 {
+        font-size: 20px;
+        margin-bottom: 9px;
+    }
+    .artist-single__cont h5 {
+        font-size: 18px;
+    }
+
+    .artist-single--1 {
+        margin-top: -95px;
+    }
+    .tik__box h3 {
+        min-width: 200px;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+    .default-button {
+        font-size: 12px;
+        min-height: 49px;
+        min-width: 210px;
+    }
+    .tik-section {
+        padding: 40px 0;
+    }
+
+
+    .faq-section {
+        padding: 40px 0;
+    }
+    .faq-section__title {
+        margin-bottom: 40px;
+    }
+    .s-faq__title {
+        padding: 30px 0;
+    }
+    .s-faq__title .ind::after {
+        font-size: 16px;
+    }
+    .s-faq__body p {
+        line-height: 1.2;
+        font-size: 15px;
+    }
+    .s-faq__body__inner {
+        padding: 0 30px 25px 0;
+    }
+
+    .help-section {
+        padding: 40px 0;
+    }
+    .help-content .h3 {
+        margin-bottom: 15px;
+        letter-spacing: 6px;
+        font-size: 20px;
+    }
+    .hp-anc {
+        margin-top: 20px;
+        min-height: 50px;
+        padding: 5px 14px;
+        width: 348px;
+        gap: 12px;
+    }
+    .hp-anc .icon {
+        font-size: 15px;
+    }
+    .hp-anc .arr-tr {
+        font-size: 14px;
+    }
+    .cta-content .h2 {
+        font-size: 35px;
+    }
+    .btn-bx {
+        padding: 5px 30px;
+        min-height: 60px;
+        font-size: 22px;
+    }
+    
+
+    .footer-section {
+        padding: 50px 0 0;
+    }
+    .fs-menu {
+        gap: 12px;
+    }
+    .fs-menu li a {
+        width: 35px;
+        height: 35px;
+    }
+    .footer-menu h4 {
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+    .footer-menu ul li a {
+        font-size: 14px;
+    }
+    .footer-menu ul {
+        gap: 10px;
+    }
+    .copy-right {
+        font-size: 12px;
+    }
+    .footer-bottom {
+        margin-top: 30px;
+        padding: 25px 0;
+    }
+
+
+    .hero-section {
+        min-height: 500px;
+    }
+    .about-bear-1,
+    .about-bear-2 {
+        display: none;
+    }
+
+    .fashion-slide {
+        color: #fff;
+    }
+    .fashion-slide .slide-bg {
+        
+    }
+    .fashion-slide .slide-bg::after {
+        content: '';
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: -1;
+        display: block;
+        position: absolute;
+    }
 }
 
 
@@ -16,7 +243,85 @@
 
 
 @media (max-width: 768px) {
- 
+    .h2 {
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+    .h-p {
+        font-size: 15px;
+    }
+    .about-content .abg-bd {
+        padding-right: 0;
+    }
+    .abg {
+        margin-bottom: 35px;
+    }
+
+    .fashion-slide .slide-bg {
+        height: calc(100% - 28px);
+    }
+    .fashion-slider .owl-dots {
+        right: 10px;
+        top: 3px;
+    }
+    .h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .artist-all-wrap {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .artist-single {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .artist-section__title .bdr-number {
+        font-size: 60px;
+    }
+    .artist-section__title {
+        margin-bottom: 20px;
+    }
+
+    .tik-row {
+        flex-direction: column;
+    }
+    .tik__box {
+        order: 3;
+        margin: -30px auto 0;
+    }
+
+    .faqs-wrap {
+        width: 100%;
+    }
+    .s-faq__title {
+        padding: 20px 0;
+        gap: 15px;
+    }
+    .artist-section__title {
+        gap: 10px;
+    }
+
+    .cta-content {
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .cta-content .h2 {
+        font-size: 25px;
+    }
+    .btn-bx {
+        padding: 2px 22px;
+        min-height: 40px;
+        font-size: 18px;
+    }
+    .footer-logo {
+        margin-bottom: 30px;
+    }
 }
 
 
